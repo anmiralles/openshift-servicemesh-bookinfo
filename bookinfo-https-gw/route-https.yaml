@@ -8,7 +8,7 @@ metadata:
     app: productpage
     service: productpage
   name: secure-productpage
-  namespace: bookinfo
+  namespace: istio-system
 spec:
   host: secure-productpage.apps.cluster-f8zbs.f8zbs.sandbox3071.opentlc.com
   port:
@@ -17,6 +17,6 @@ spec:
     termination: passthrough
   to:
     kind: Service
-    name: istio-ingressgateway
+    name: new-ingress-gateway
     weight: 100
   wildcardPolicy: None

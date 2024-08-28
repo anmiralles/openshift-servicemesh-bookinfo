@@ -8,7 +8,7 @@ metadata:
     app: productpage
     service: productpage
   name: productpage-dr
-  namespace: bookinfo
+  namespace: istio-system
 spec:
   host: productpage-dr.apps.cluster-99549.dynamic.redhatworkshops.io
   port:

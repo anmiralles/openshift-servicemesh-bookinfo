@@ -8,13 +8,11 @@ metadata:
     app: productpage
     service: productpage
   name: productpage
-  namespace: bookinfo
+  namespace: istio-system
 spec:
   host: productpage-bookinfo.apps.cluster-f8zbs.f8zbs.sandbox3071.opentlc.com
   port:
-    targetPort: http2 # or https
-  #tls:
-  #  termination: passthrough
+    targetPort: http2
   to:
     kind: Service
     name: istio-ingressgateway
