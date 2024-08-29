@@ -22,3 +22,4 @@ We will creat 2 "istio-ingresgateways" which will route http and https traffic t
 - https://docs.redhat.com/en/documentation/openshift_container_platform/4.16/html/service_mesh/service-mesh-2-x
 - https://docs.openshift.com/container-platform/4.16/networking/ingress-operator.html#nw-http2-haproxy_configuring-ingress
 - https://istio.io/latest/docs/ops/common-problems/network-issues/#404-errors-occur-when-multiple-gateways-configured-with-same-tls-certificate
+- https://stackoverflow.com/questions/64812296/openshift-origin-v3-edge-passthrough-and-encrypt-termination
